@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body style="background-color: white;">
+    <button id="changeBtn">点击切换body的颜色 白>红>蓝>绿>白</button>
+    <script>
+        //   点击button的时候，获取大当前booy的背景颜色，根据现有的背景颜色，把其更改为对应的颜色
+        // 1.想要操作谁就先获取谁
+        // 2.事件绑定
+        // 3.实线对应的需求逻辑即可
+        // 4.body.style.backgroundColor操作的是元素的行内样式，
+        let body = document.body,
+            changeBtn = document.getElementById('changeBtn')
+        changeBtn.onclick = function () {
+            let bg = body.style.backgroundColor;
+            console.log(bg)
+            // if (bg === 'white') {
+            //     body.style.backgroundColor = 'red';
+            // } else if (bg === 'red') {
+            //     body.style.backgroundColor = 'blue';
+            // } else if (bg === 'blue') {
+            //     body.style.backgroundColor = 'green';
+            // } else {
+            //     body.style.backgroundColor = 'white';
+            // }
+            switch (bg) {
+                case 'white':
+                    body.style.backgroundColor = 'red';
+                    break;
+                case 'red':
+                    body.style.backgroundColor = 'blue';
+                    break;
+                case 'blue':
+                    body.style.backgroundColor = 'green';
+                    break;
+                default:
+                    body.style.backgroundColor = 'white';
+
+            }
+        };
+    </script>
+
+    <input type="text" id="inpBox">
+    <button id="submit">提交</button>
+
+    <script>
+        let inpBox = document.getElementById('inpBox'),
+            submit = document.getElementById('submit');
+        submit.onclick = function () {
+            let val = inpBox.Value;
+            val = Number(val);
+            if (isNaN(val) || val < 1000 || val > 9999) {
+                alert('输入的年份必须合法');
+                return;
+                // y遇到return下面代码就不执行了
+            }
+            if ((val % 4 === 0 && val % 100 !== 0) || val % 400 === 0) {
+                // 能被4整除，不能被100整除
+                alert(`${val}年是闰年！`);
+            } else {
+                (`${val}年时平年!`);
+            }
+        }
+    </script>
+
+    <script>
+        let inpBox = document.getElementById('inpBox'),
+            submit = document.getElementById('submit');
+        submit.onclick = function () {
+                let val = inpBox.Value;
+                val = Number(val);
+                if (isNaN(val)) {
+                    alert('请输入有效数字');
+                    return;
+                    // y遇到return下面代码就不执行了
+                }
+                if ((val % 2 == 0) {
+                        // 能被4整除，不能被100整除
+                        alert(`${val}偶数`);
+                    } else {
+                        (`${val}奇数!`);
+                    }
+
+                }
+    </script>
+
+    <script>
+        let inpBox = document.getElementById('inpBox'),
+            submit = document.getElementById('submit');
+        submit.onclick = function () {
+            let val = inpBox.Value;
+            val = Number(val);
+            if (isNaN(val)) {
+                alert('输入有效分数');
+                return;
+                // y遇到return下面代码就不执行了
+            }
+            if (val >= 90) {
+                // 能被4整除，不能被100整除
+                alert(`优秀`);
+            } else if (val >= 80 && val < 90) {
+                alert(`中等`);
+            } else{
+                alert(`不及格`);
+            }
+
+
+        }
+    </script>
+</body>
+
+</html>

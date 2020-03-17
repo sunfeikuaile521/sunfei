@@ -1,0 +1,147 @@
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.container header {
+    width: 100%;
+    height: 88px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.container header .main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container header .logo {
+    float: left;
+    width: 270px;
+    height: 51px;
+    margin-top: 16px;
+}
+
+.container header .logo img {
+    width: 100%;
+}
+
+.container header nav {
+    float: right;
+    line-height: 88px;
+}
+
+.container header nav a {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 30px;
+}
+
+
+/* banner pc端 */
+.container .banner {
+    width: 100%;
+    position: relative;
+}
+
+.container .banner li {
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.container .banner li.bg1 {
+    background-color: #fd6a28;
+}
+
+.container .banner li.bg2 {
+    background-color: #22206a;
+}
+
+.container .banner .active {
+    display: block;
+}
+
+.container .banner .l-btn,
+.container .banner .r-btn {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.container .banner .l-btn {
+    left: 100px;
+}
+
+.container .banner .r-btn {
+    right: 100px;
+}
+
+/* content */
+
+.container .content {
+    padding-top: 20px;
+}
+
+.content .clear li {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.content .clear li h4 {
+    font-size: 18px;
+    color: #ff6900;
+    font-weight: normal;
+}
+
+.content .clear li p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+/* 移动端 */
+@media all and (max-width: 700px) {
+
+    /* header */
+    .container header .main {
+        width: 100%;
+    }
+
+    .container header nav {
+        display: none;
+    }
+
+    .container header .main .logo {
+        width: 148px;
+        height: 28px;
+        margin-top: 9px;
+    }
+
+    .container header {
+        height: 46px;
+    }
+
+    /* banner移动端 */
+    .container .banner .l-btn,
+    .container .banner .r-btn {
+        display: none;
+    }
+
+    .container .banner li img {
+        width: 100%;
+    }
+
+    /*  content移动端*/
+    .content .clear li {
+        width: 50%;
+    }
+}

@@ -1,0 +1,64 @@
+/* 1rem=100px */
+html{
+    font-size: 100px;
+}
+.nav{
+    width: 100%;
+}
+
+.nav .picture li{
+    float: left;
+    width:20%;
+    text-align: center;
+    margin-top: .1rem;
+}
+.nav .picture li img{
+    display: block;
+    margin: 0 auto;
+    width: .34rem;
+    height: .34rem;
+}
+.nav .picture li p{
+    font-size: .12rem;
+    color: #000;
+    line-height: .3rem;
+}
+
+.main{
+width: 100%;
+}
+.main .heder{
+    font-size: .18rem;
+}
+.main .heder li{
+    float: left;
+    box-sizing: border-box;
+    margin-top: .3rem;
+    margin-left: 0.10rem;
+    text-align: center;
+    border-right: 0.01rem solid silver;
+    border-top: 0.01rem solid silver;
+    border-bottom: 0.01rem solid silver;
+   
+}
+.main .heder li p{
+    font-size: .13rem;
+    margin-top: 0.02rem;
+    color: silver;
+}
+
+.main .heder li img{
+    width: 0.67rem;
+    height: 0.75rem;
+}
+/* 375 */
+@media all and (min-width:375px){
+    html{
+        font-size: 117.1875px;
+    }
+}
+@media all and (min-width:414px){
+    html{
+        font-size:129.375px;
+    }
+}

@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+ul,
+ol {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 导航 */
+.header {
+    width: 1000px;
+    height: 70px;
+    background-color: cornsilk;
+    margin: 0 auto;
+}
+
+.header .logo,
+.header .nav,
+.header .btn {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 52px;
+}
+
+.header .logo {
+    width: 176px;
+    height: 52px;
+}
+
+.header .logo img {
+    width: 100%;
+}
+
+.header .nav a {
+    color: #2a2a2a;
+    font-size: 16px;
+    padding-left: 29px;
+}
+
+.header .btn {
+    color: #666767;
+    font-size: 16px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.header .btn .icon em {
+    display: inline-block;
+    width: 24px;
+    height: 22px;
+    background: url(../5.png);
+    vertical-align: middle;
+}
+
+.header .btn .icon:hover {
+    color: dodgerblue;
+}
+
+.header .btn a {
+    color: #666767;
+    font-size: 16px;
+    padding-left: 25px;
+}
+
+.header .btn .icon:hover em {
+    background: url(../6.png);
+}
+
+/* 底部 */
+.footer {
+    width: 1200px;
+    height: 250px;
+    background-color: #2e2e2e;
+    ;
+    margin: 0 auto;
+}
+
+.footer dl,
+.footer .shop {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 100px;
+    line-height: 60px;
+}
+
+.footer dl dt {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer dl dd a {
+    color: #c1c1c1;
+    font-size: 18px;
+}
+
+.footer dl dd a:hover {
+    color: #fff;
+}
+
+.footer .shoop {
+    display: inline-block;
+    vertical-align: middle;
+    width: 233px;
+    height: 64px;
+    background: url(./黑底珠峰图片.png)no-repeat;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.footer .shoop1 {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 51px;
+    height: 51px;
+    background: url(./77.png)no-repeat;
+    margin-left: -230px;
+    margin-bottom: 45px;
+}
+
+.footer .shoop11 {
+    display: inline-block;
+    vertical-align: top;
+    display: none;
+    width: 170px;
+    height: 170px;
+    ;
+}
+
+.footer .shoop1 img {
+    width: 100%;
+}
+
+.footer .shoop1:hover .shoop11 {
+    display: block;
+}
+
+.footer .shoop2 {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 51px;
+    height: 51px;
+    background: url(./88.png)no-repeat;
+    margin-left: 10px;
+    margin-bottom: 45px;
+}
+
+.footer .shoop3 {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 51px;
+    height: 51px;
+    background: url(./99.png)no-repeat;
+    margin-left: 10px;
+    margin-bottom: 45px;
+}
+
+.footer .shoop4 {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 51px;
+    height: 51px;
+    background: url(./111.png)no-repeat;
+    margin-left: 10px;
+    margin-bottom: 45px;
+}
+
+.footer .shoop4:hover {
+    background: red;
+}
+
+.title {
+    width: 1200px;
+    height: 400px;
+    background: rgba(194, 231, 58, 0.897);
+    text-align: center;
+    font-size: 19px;
+    font-size: 0px;
+   margin: 0 auto;
+}
+
+.title h3 {
+    font-weight: normal;
+    line-height: 35px;
+    font-size: 22px;
+}
+
+.title h5 {
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 50px;
+}
+
+.title .title1 ul {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: rgba(230, 226, 33, 0.767);
+}

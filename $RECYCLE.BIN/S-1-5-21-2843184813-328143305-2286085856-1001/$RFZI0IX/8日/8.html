@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="8.css">
+</head>
+
+<body>
+    <section id="box" style="line-height: 50px;">
+        <ul>
+            <li>岁末，珠峰就业还在一直创造奇迹</li>
+            <li>珠峰成长的秘密-兴盛衰败一挥间</li>
+            <li>珠峰培训帮我实线外企梦</li>
+            <li>应届毕业生也能拿20万年薪</li>
+            <li>学完之后真的能推荐进百度吗</li>
+            <li>担心逻辑差学不会</li>
+        </ul>
+    </section>
+    <script>
+        let box = document.getElementById('box');
+        let item = box.getElementsByTagName('li');
+
+        for (var i = 0; i < item.length; i++) {
+            var itemlist = item[i];
+            if (i % 2 !== 0) {
+                itemlist.style.backgroundColor = 'Yellow'
+            } else {
+                itemlist.style.backgroundColor = 'white'
+            }
+        }
+
+        function onclick(index) {
+            for (var i = 0; i < item.length; i++) {
+                if (i % 2 == 0) {
+                    oncli.style.backgroundColor = 'blue'
+                } else {
+                    oncli.style.backgroundColor = 'white'
+                }
+            }
+        }
+        // i=0第一轮循环
+        // oncli[0].onclick = function () {
+        // 此处是创建函数：函数存储的是一堆字符串，我们看到的i，也只是一个字符
+        //  'oncli(i)';
+        // }
+        // i=1第二轮循环
+        // oncli[1].onclick = function () {
+        //'oncli(i)' ;
+        // }
+        // i=2第三轮循环
+        // oncli[2].onclick = function () {
+        // 'oncli(i)';
+        // }
+        //  i=3循环结束
+        // 收钱点了第二个li，出发第二个li绑定的函数
+        // 'oncli(i)'此时的i已经是循环结束后的3了。
+        // 循环绑定点击事件（而不是一个个的绑定）
+        // onclick[index].style.backgroundColor = 'yellow' {
+            for (var i = 0; 1 < oncli.length; i++) {
+                // 通过索引oncli[i] oncli每一轮循环获取到的li元素对象(堆，有很多内置的属性，也可以设置自定义属性)
+                // li元素对象的索引
+                // oncli={
+                //     0:{we:0},d都存了一个we自定义属性
+                //     1:(we:1),
+                // }
+                oncli[i].we = i;
+                oncli[i].onclick = function () {
+                    // 传递当前点击这个li的索引
+                    // this代表的是点击的li，而我们基于他的自定义属性珠峰就可以拿到他的索引
+                    oncli(this.we);
+                }
+            }
+        // }
+        // oncli.onclick = function () {
+            // 此时还没有执行，只有当点击oncli的时候，函数才执行
+        // }
+    </script>
+    <!-- 2.
+    3.'珠峰培训' '珠峰培训' 'undefined' -->
+</body>
+
+</html>

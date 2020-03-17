@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*
+		 * queryURLParams：获取地址栏中问号传参的信息 
+		 *
+		 'http://www.zhufengpeixun.cn/?lx=1&name=JS&from=baidu#video' 解析问号和井号后面的值，最后得到一个包含信息的对象
+		 =>
+		 {
+			 lx:1,
+			 name:'JS',
+			 from:'baidu',
+			 HASH:'video'
+		 }
+		 */
+        //  queryURLParams获取问号和井号后面的值
+        // function queryURLParams(url) {
+        //     let askIndex = url.indexof('?'),
+        //         polIndex = url.lastIndexof('#');
+        //     let askText = url.substring(askIndex + 1, polIndex),
+        //         polText = url.substring(polIndex + 1);
+        //     console.log(askText, polText);
+
+        //     // 把获取到得结果进行解析，最后平成一个对象返回
+        //     let obj = {};
+        //     // 处理哈希值（井号后面得值）
+        //     polText.length > 0 ? obj['HASH'] = polIndex : null;
+        //     if (askText) {
+        //         askText.split('&') => ['1x=1',"name=JS","from=baidu"]
+        //         askText.split('&').foreach 
+        //         (item=>{
+        //             // item:循环数组中得每一项
+        //             let arr =item.split('=').//=>"1x=1"=>["1x",1]
+        //             key=arr[0],
+        //             value=arr;
+        //             obj[key]=value;
+        //              })
+        //     }
+        //     return obj;
+
+        // }
+        
+    </script>
+
+</body>
+
+</html>

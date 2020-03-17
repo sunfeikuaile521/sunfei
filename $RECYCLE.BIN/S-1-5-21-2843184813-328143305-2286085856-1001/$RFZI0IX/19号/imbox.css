@@ -1,0 +1,353 @@
+/* 头部导航 */
+.main {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: 80px;
+    background-color: #ffffff;
+}
+
+.header .nav {
+    width: 176px;
+    height: 52px;
+    float: left;
+}
+
+.header .nav img {
+    width: 100%;
+}
+
+.header .conten ul a {
+    float: left;
+    color: rgb(66, 63, 63);
+    font-size: 13px;
+    margin: 20px 32px;
+}
+
+.header .Cart {
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+.header .Cart span {
+    margin-left: 20px;
+}
+
+.header .Cart span:hover {
+    color: cornflowerblue;
+}
+
+.header .Cart a {
+    color: black;
+    margin-left: 10px;
+}
+
+.header .Cart i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+    width: 24px;
+    height: 22px;
+    background: url(../images/huisegouwuc.png) no-repeat;
+
+}
+
+.header .Cart i:hover {
+    background: url(../images/lansegouwuc.png);
+}
+
+.header .Cart:hover .hide {
+    display: block;
+}
+
+/* 隐藏盒子 */
+.header .hide {
+    display: none;
+    width: 433px;
+    height: 410px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 59px;
+    right: -40px;
+    z-index:1;
+}
+
+.header .Cart .hide h5 {
+    font-weight: normal;
+    font-size: 20px;
+    color: #333;
+    line-height: 52px;
+    border-bottom: 1px solid #e1e1e1;
+    padding-left: 22px;
+}
+
+.header .Cart .hide h5 .hide1 {
+    float: right;
+    color: #7d7d7d;
+    font-size: 12px;
+    padding-right: 22px;
+}
+
+.header .core .corebj {
+    width: 68px;
+    height: 68px;
+    background: url(../images/iconBg.png) no-repeat 14px center;
+    margin: 100px 230px;
+    background-color: #9e9e9e;
+    margin: 50px auto 0;
+    border-radius: 50%;
+}
+
+.header .core .corekk {
+    text-align: center;
+    line-height: 60px;
+    font-size: 17px;
+    border-bottom: 1px solid #e1e1e1;
+    width: 190px;
+    margin: 0 auto;
+}
+
+.header .core .corekc {
+    text-align: center;
+    line-height: 60px;
+}
+
+.header .core .corekc .courae a {
+    color: royalblue;
+    line-height: 74px;
+}
+
+.header .bot {
+    margin-top: 25px;
+    border-top: 1px solid #e1e1e1;
+    line-height: 68px;
+}
+
+.header .bot span {
+    font-size: 12px;
+    color: #7d7d7d;
+}
+
+.header .bot a {
+    float: right;
+    width: 79px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    background-color: steelblue;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+
+}
+
+/* 上中banner */
+ .banner {
+    position: relative;
+}
+
+.banner .banlmg {
+    width: 100%;
+}
+
+.banner .banlmg .logimg {
+    display: block;
+}
+
+.banner .banlmg li {
+    width: 1204px;
+    display: none;
+}
+
+.banner .aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 240px;
+    height: 360px;
+    background-color: salmon;
+}
+
+.banner .aside li {
+    line-height: 71px;
+}
+
+.banner .aside li a {
+    width: 190px;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+    display: block;
+    margin: auto;
+}
+
+.banner .aside li i {
+    margin-left: 11px;
+}
+
+.banner .aside .display:hover .ban-hidden1 {
+    display: block;
+}
+
+.banner .aside .ban-hidden1 {
+    display: none;
+    position: absolute;
+    left: 240px;
+    top: 0;
+    width: 240px;
+    height: 360px;
+    background-color: rgba(80, 214, 255, 0.247);
+}
+
+.banner .aside .display1:hover .ban-hidden2 {
+    display: block;
+}
+
+.banner .aside .ban-hidden2 {
+    display: none;
+    position: absolute;
+    left: 240px;
+    top: 0;
+    width: 240px;
+    height: 360px;
+    background-color: rgba(135, 255, 80, 0.308);
+}
+
+.banner .aside .display2:hover .ban-hidden3 {
+    display: block;
+}
+
+.banner .aside .ban-hidden3 {
+    display: none;
+    position: absolute;
+    left: 240px;
+    top: 0;
+    width: 240px;
+    height: 360px;
+    background-color: rgba(255, 80, 188, 0.308);
+}
+
+.banner .aside .display3:hover .ban-hidden4 {
+    display: block;
+}
+
+.banner .aside .ban-hidden4 {
+    display: none;
+    position: absolute;
+    left: 240px;
+    top: 0;
+    width: 240px;
+    height: 360px;
+    background-color: rgba(223, 255, 80, 0.445);
+}
+
+.banner .aside .display4:hover .ban-hidden5 {
+    display: block;
+}
+
+.banner .aside .ban-hidden5 {
+    display: none;
+    position: absolute;
+    left: 240px;
+    top: 0;
+    width: 240px;
+    height: 360px;
+    background-color: rgba(80, 243, 255, 0.514);
+}
+
+.banner .aside .display:hover {
+    background-color: rgba(223, 255, 80, 0.445);
+}
+
+.banner .aside .display1:hover {
+    background-color: rgba(223, 255, 80, 0.445);
+}
+
+.banner .aside .display2:hover {
+    background-color: rgba(223, 255, 80, 0.445);
+}
+
+.banner .aside .display3:hover {
+    background-color: rgba(223, 255, 80, 0.445);
+}
+
+.banner .aside .display3:hover {
+    background-color: rgba(223, 255, 80, 0.445);
+}
+
+.banner .aside .display4:hover {
+    background-color: rgba(223, 255, 80, 0.445);
+}
+
+/* 底部 */
+.bottom .tail {
+    background-color: #333;
+    height: 260px;
+}
+
+.bottom .tail dl {
+    float: left;
+}
+
+.bottom .tail dt {
+    line-height: 104px;
+    margin-left: 73px;
+    color: #fff;
+}
+
+.bottom .tail dd {
+    line-height: 32px;
+    margin-left: 73px;
+    color: #fff;
+}
+
+.bottom .picture em {
+    width: 233px;
+    height: 64px;
+    background: url(../images/heidizhufeng.png) no-repeat;
+    float: right;
+    margin-top: -200px;
+    margin-right: 50px;
+}
+
+.bottom .picture ul .Icon {
+    float: right;
+    width: 51px;
+    height: 52px;
+    background: url(../images/77.png);
+    margin-top: -120px;
+    margin-right: 50px;
+}
+
+.bottom .picture ul .Icon2 {
+    float: right;
+    width: 51px;
+    height: 52px;
+    background: url(../images/88.png);
+    margin-top: -120px;
+    margin-right: 110px;
+}
+
+.bottom .picture ul .Icon3 {
+    float: right;
+    width: 51px;
+    height: 52px;
+    background: url(../images/99.png);
+    margin-top: -120px;
+    margin-right: 170px;
+}
+
+.bottom .picture ul .Icon4 {
+    float: right;
+    width: 51px;
+    height: 52px;
+    background: url(../images/111.png);
+    margin-top: -120px;
+    margin-right: 230px;
+}

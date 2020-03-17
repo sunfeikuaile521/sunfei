@@ -1,0 +1,145 @@
+.nav {
+    width: 100%;
+    background-color: #fd6a28;
+    position: relative;
+}
+.nav header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    line-height: 89px;
+    background-color: rgba(245, 191, 160, 0.144);
+}
+.nav .Layout {
+    width: 960px;
+    margin: 0 auto;   
+}
+
+.nav .Layout .logo {
+    width: 270px;
+    height: 51px;
+    float: left;
+    margin-top: 25px;
+}
+
+.nav .Layout .logo img {
+    width: 100%;
+}
+
+.nav .Layout .Navigation {
+    float: right;
+   
+}
+.nav .Layout .on1:hover {
+    color: rgba(97, 196, 97, 0.678);
+}
+.nav .Layout .on2:hover {
+    color:  rgba(97, 196, 97, 0.678);
+}
+.nav .Layout .on3:hover {
+    color: rgba(97, 196, 97, 0.678);
+}
+.nav .Layout .Navigation a {
+    color: #ffffff;
+    margin-right: 73px;
+    font-size: 19px;
+}
+
+/* 移动端*/
+/* @media screen and (max-width:700px){
+    .nav .Layout .logo{
+        width: 200px;
+        height: 36px;
+    }
+    .nav .Layout{
+      width: 100%;
+    }
+} */
+/* 
+.nav .picture {
+    width: 960px;
+    margin: 0 auto;
+    height: 550px;
+}
+
+.nav .picture img {
+    width: 100%;
+}
+
+.nav .introduce {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.nav .introduce .content {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.nav .introduce .content li {
+    float: left;
+    width: 216px;
+    margin-left: 24px;
+}
+
+.nav .introduce .content li .logoimg {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.nav .introduce .content li a img {
+    width: 100%;
+}
+
+.nav .introduce .content li h4 {
+    text-align: center;
+    font-weight: normal;
+    color: #ff6900;
+    font-size: 18px;
+    line-height: 35px;
+
+}
+
+.nav .introduce .content li p {
+    font-size: 10px;
+    color: #ddd9d7;
+    line-height: 35px;
+    text-align: center;
+}
+
+.nav .Location .Smallbox {
+    position: fixed;
+    right: 24px;
+    bottom: 34px;
+    float: left;
+    background-color: #ff6900;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.nav .Location .Smallbox em {
+    width: 51px;
+    height: 51px;
+    background: url(./images/99.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav .Location .Smallbox span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav .Location .Smallbox:hover .hide {
+    display: block;
+}
+
+.nav .Location .Smallbox .hide {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 52px;
+} */

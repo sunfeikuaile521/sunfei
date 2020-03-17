@@ -1,0 +1,29 @@
+/* 写成100px 就是1rem=100px（1除以100） */
+
+
+.box1{
+    width: 800px;
+    height:800px;
+    border: 7px solid gold;
+    display: flex;
+    align-content: center;
+    /* justify-content: center; */
+    /* align-items: stretch;
+    flex-direction: column; */
+
+    /* justify-content: space-evenly;平均 */
+    /* justify-content: space-around; 两边空少 中间比两边多出一倍*/
+    /* justify-content: space-between; 常用 两边对*/
+    /* justify-content: center; 常用*/
+    /* flex-flow: row wrap; */
+    /* flex-wrap: nowrap;常用 */
+    /* flex-direction: row; 常用*/
+    /* flex-direction: column; 常用*/
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+}
+.box1>li{
+    width: 100px;
+    height: 100px;
+    border: 7px solid orangered;
+}

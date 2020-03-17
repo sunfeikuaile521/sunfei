@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 01、JS中的数据类型都有哪些？以及之间的区别？
+        // 1.基础类型：数字number,字符串string,布尔boolean，空null，未定义undefined，唯一值symbol
+        // 2. 引用类型： 数组对象[], 普通对象 {}，
+        // 正则 //，日期
+        // 函数数据类型function 
+        // 区别:基础数据类型值是存储在栈内存中， 从上而下执行代码
+        // 引用类型： 存储在堆内存当中， 
+        // 函数数据类型： 存储在堆内存中， 存储类型为字符串
+        // 02、检测数据类型的四种方式？（常见面试题）
+        // ypeof[value]检测数据类型得运算符
+        // >[example]instanceof[class]检测一个实例是否属于这个类
+        // [example].constuctor===[class]检测实例和类关系和数据类型
+        // 03、var，let，class创建类，function创建函数，console不可以修改变量值，会报错，可以成为常量。
+        // 04、webkit，gecko，blink，trident
+        // object.prototype.toString.call[value]检测数据类型
+        // 05、写出下面程序的输出结果（腾讯面试题）'3'
+        // 06、写出下面程序输出几次，结果分别是多少？（腾讯面试题）循环三次，输出结果是字符串 '9'
+        // 07、向下面数组末尾追加一个值100你有几种办法？(至少两种)
+        // arr[arr.lenth]=100;ary.push('100');
+
+        // 08、把下面的数组进行排序（降序）
+        // let ary = [12, 14, 13, 35, 16, 28];
+        // ary.sort(function (a, b) {
+        //     return b - a;
+        // });
+        // console.log(arr);
+        // 09、实现找到数组第n项到第m项(包括n和m)的内容，返回一个新的数组（百度面试题）if(arr.substr('n','m'));
+        // 10、完成以下字符串处理需求（常见面试题）
+        // let time = '2017-10-20';
+        // time=time.concat(`$[0]年$[1]月$[2]日`);
+        // console.log(time);
+        // 11、简述字符串截取方法 substr 、 substring 、 slice 三者间的区别?（联想面试题） substr[n,m]从索引n开始截取m个字符，substring（n，m）从索引n开始，找到索引为m处（不包含m），slice（n，m）可以支持负数作为索引
+        // 12、获取 2~93 之间的随机整数(包含2也包含93) if(arr.substr('2','93'));
+        // 13、写出下面代码的输出结果？（腾讯面试题）'NaNTencentfalseundefinednull'
+        // 14、写出下面代码的输出结果？a:3 b:4
+        // 15
+        // 已知下面代码可以修改BOX元素的样式 
+        // box.style.color = 'red'; 
+        //=>那么下面的写法是否可以修改元素的样式，如果不可以是为什么？ 
+        //第一种方案 
+        // let AA = box.style; AA.color = 'red';  可以修改
+        //第二种方案 
+        // let BB = box.style.color; BB = 'red';不可以修改，因为没有在style得堆内存中去修改他的字体颜色属性
+        // 16、如下'珠峰培训'  undefined
+        // 17、分析下面的代码，写出运行的结果（百度面试题）12 ,13,12
+        // 18、写出下面代码运行的结果 （阿里面试题）Object Object
+        // 19、写出下面代码输出的结果1
+        // 20、写出下面代码的输出结果"stringture" ,NaN
+        1、补充代码实现最后的效果（任意数求和）
+        function sum() {
+            let total = 0;
+            for (let i = 0; i < arguments.length; i++) {
+                let item = Number(arguments[i]);
+                if (isNaN(item)) {
+                    continue;
+                }
+                total = total + item;
+            }
+            return total;
+        }
+        let total = sum(10, 20, '30', '珠峰', '40');
+        console.log(total); //=>100 
+
+        // 2、补充代码实现最后的结果（常见面试题）
+        // function queryURLParameter(url) {
+        //     let askIndex = url.indexof('?'),
+        //         polIndex = url.lastIndexof('#');
+        //     let askText = url.substring(askIndex + 1, polIndex),
+        //         poText = url.substring(polIndex + 1);
+        //     console.log(askText, polText);
+        //     let object = {};
+        //     poText.length > 0 ? obj['HASH'] = poText : null;
+        //     if (askText) {
+        //         askText.split('&').forEach(item => {
+        //             let arr = item.split('='),
+        //                 key = arr[0],
+        //                 value = arr[1];
+        //             obj[key] = value;
+        //         });
+        //         return obj;
+        //     }
+        //     let str = 'http://www.zhufengpeixun.com/stu/?name=zxt&age=28&sex=0#teac her';
+        //     let result = queryURLParameter(str);
+        //     console.log(result);
+        /*{ name:'zxt', age:28, sex:0, HASH:'teacher' }*/
+        // 3
+        // 4
+
+        // 5、有如下数组，我们期望 把数组中重复项去除 后，然后再让数组 按照升序进行排序
+        // function handle(arr) {
+        //     for (let i = 0; i < arr.length - 1; i++) {
+        //         let item = arr[i];
+        //         for (let j = i + 1; j < arr.length; j++) {
+        //             if (item === arr[j]) {
+        //                 arr.splice(j, 1);
+        //                 j--;
+        //             }
+        //             (arr).sort(function (a, b) {
+        //                 return a - b;
+        //             });
+        //         }
+        //     }
+
+        // }
+        // let arr = handle([12, 14, 23, 12, 13, 24, 23, 12, 6, 24, 32]);
+        // console.log(arr); //=>[6, 12, 13, 14, 23, 24, 32]
+    </script>
+</body>
+
+</html>

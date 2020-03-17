@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .info {
+            width: 0;
+            border-width: 30px;
+            border-style: solid;
+            border-color: transparent transparent transparent gold;
+        }
+
+        .cent {
+            width: 0;
+            /* 控制边框大小 */
+            border-width: 5px;
+            /* 边框样式 实线 */
+            border-style: solid;
+            /* border-top: 10px solid yellow;
+        border-bottom: 10px solid fuchsia;
+        border-left: 5px solid royalblue;
+        border-right: 5px solid pink; */
+            border-color: transparent transparent transparent violet;
+        }
+
+        .embox {
+            width: 200px;
+            background: violet;
+            text-align: center;
+        }
+        .embox h3{
+            line-height: 40px;
+            text-align: center;
+            background-color: tomato;
+            font-weight: normal;
+        }
+        .embox .yincabox {
+            display: none;
+            line-height: 100px;
+            text-align: center;
+        }
+        .embox:hover .yincabox {
+            display: block;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="info">
+    </div>
+    <div class="cent">
+    </div>
+</body>
+
+<div class="embox">
+   <h3>购物车</h3>
+    <div class="yincabox">隐藏</div>
+</div>
+
+
+</html>

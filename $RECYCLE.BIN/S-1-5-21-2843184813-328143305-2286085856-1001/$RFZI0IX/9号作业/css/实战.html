@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .licensePlate {
+            box-sizing: border-box;
+            padding: 0 10px;
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            background: lightblue;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <p class="lincenPlate"></p>
+        <button class="shakeBtn">摇号</button>
+    </div>
+    <!-- js -->
+    <script>
+        // querySelector()返回指定选择器得第一个元素
+        let licensePlate = document.querySelector('lincenPlate'),
+            shakeBtn = document.querySelector('shakeBtn');
+        // 设置新变量count，初始循环次数为0
+        let count = 0;
+        // 设置shakeBtn按钮 实现点击功能，创建函数
+        shakeBtn.onclick = function () {
+            // 用变量count限制次数
+            count++;
+            // if判断，条件只能要三次，当点击第四次得时候 就提示
+            if (count >= 4) {
+                alert('只能摇号三次，您已超过次数');
+                return;
+                // 遇到return不在往下执行
+            }
+            // 2.随机生成车牌号，放置到页面指定得容器中
+            let result = '京',
+                area1 = 'ABCEFGHJK',
+                // 索引范围0-8
+                area2 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+            // 索引范围0~35,
+            // Math round([N])把数字N四舍五入，Math random;获取0-35之间得随机效数，获取得结果每次都不一样
+            // charAt容错率更高一些
+            result += area1.charAt(Math.round(Math.random() * 8));
+            for (let i = 1; i <= 5; i++) {
+                result += erea2.charAt(Math.round(Math.random() * 35));
+            }
+            // innerHTML获取对象，也可以对某对象插入内容
+            licensePlate.innerHTML = result;
+
+        };
+    </script>
+</body>
+
+</html>

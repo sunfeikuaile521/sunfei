@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/7.css">
+</head>
+
+<body>
+    <section class="tabBox" id="tabBox">
+        <ul class="tab clear">
+            <li class="active">编程</li>
+            <li>读书</li>
+            <li>运动</li>
+        </ul>
+        <div class="active">变成可以是我"赚取高薪"</div>
+        <div>读书可以是我提升学识</div>
+        <div>运动可是是我体魄强健</div>
+
+        <script>
+            var tabBox=document
+            var tabBox = document.getElementById('tabBox'),
+            
+                tabList = tabBox.getElementsByTagName('li'),
+                content = tabBox.getElementsByTagName('div');
+
+            function changeTab(index) {
+                for (var i = 0; i < tabList.length; i++) {
+                    tabList[i].className = '';
+                    content[i].className = '';
+                }
+                tabList[index].className = 'active';
+                content[index].className = 'active';
+            }
+            tabList[0].onclick = function () {
+                changeTab(0);
+            };
+            tabList[1].onclick = function () {
+                changeTab(1);
+            };
+            tabList[2].onclick = function () {
+                changeTab(2);
+            };
+        </script>
+    </section>
+
+
+</body>
+
+</html>

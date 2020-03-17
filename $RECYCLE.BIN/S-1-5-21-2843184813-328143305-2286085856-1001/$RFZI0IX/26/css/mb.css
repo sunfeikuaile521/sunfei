@@ -1,0 +1,133 @@
+.header {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.header nav {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.header .min {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.header .min li {
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.header .min li a {
+    color: #fff;
+}
+
+
+.header .baneer img {
+    width: 100%;
+}
+
+/*  */
+.header .section {
+    padding-top: 10px;
+}
+
+.header .section .picture {}
+
+.header .section .picture li {
+    width: 25%;
+    float: left;
+    position: relative;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.header .section .picture li img {
+    width: 100%;
+}
+
+.header .section .picture li p {
+    color: #ffffff;
+    font-size: 12px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+
+/*  */
+.header .icot {
+    padding-top: 105px;
+    padding-bottom: 105px;
+    box-sizing: border-box;
+}
+
+.header .icot li {
+    float: left;
+    width: 22%;   
+}
+
+.header .icot li .WeChat {
+    float: left;
+}
+
+.header .icot li .WeChat em {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/icon-wechat.png );
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .icot li .Scan {
+    float: left;
+    margin-left: 10px;
+}
+
+.header .icot li .Scan h4 {
+    font-weight: normal;
+    margin: 3px 6px;
+    font-size: 14px;
+}
+
+.header .icot li .Scan p {
+    margin: 3px 6px;
+    font-size: 14px;
+}
+
+/* 移动端 */
+@media all and (min-width:300px) and (max-width:700px) {
+
+    /* header */
+    .header .min {
+        display: none;
+    }
+
+    /* baneer */
+    .header .baneer img {
+        width: 100%;
+    }
+
+    /* section*/
+    .header .section .picture li {
+        width: 100%;
+    }
+
+    .header .min {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* icot */
+    .header .icot li {
+        width: 100%;
+    }
+}

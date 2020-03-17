@@ -1,0 +1,33 @@
+.tabBox {}
+
+.tabBox .tab {
+    position: relative;
+    top: 1px;
+}
+
+.tabBox .tab li {
+    margin-left: 10px;
+    width: 60px;
+    border: 1px solid royalblue;
+    float: left;
+    text-align: center;
+}
+
+.tabBox .tab li.active {
+    display: block;
+    background: hotpink;
+    border-bottom-color: hotpink;
+}
+
+.tabBox div {
+    display: none;
+    width: 245px;
+    line-height: 150px;
+    border: 1px solid royalblue;
+    background: hotpink;
+    text-align: centera;
+}
+
+.tabBox div.active {
+    display: block;
+}

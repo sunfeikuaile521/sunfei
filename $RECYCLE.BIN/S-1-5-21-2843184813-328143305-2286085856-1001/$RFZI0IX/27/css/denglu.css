@@ -1,0 +1,89 @@
+header {
+    width: 100%;
+}
+
+header h5 {
+    font-weight: normal;
+    background-color: #252525;
+    font-size: .25rem;
+    line-height: 1.08rem;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    width: 100%;
+    height: 3rem;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+section em {
+    width: 100%;
+    width: 3rem;
+    height: 3rem;
+    background: url(../imges/wangji.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    left: 33.33%;
+    top: 20%;
+}
+
+.box {
+    width: 100%;
+}
+
+.box ul {
+    width: 100%;
+    display: block;
+}
+
+.box ul li input {
+    width: 100%;
+    font-size: .25rem;
+    margin-left: .2rem;
+    padding-left: .35rem;
+    width: 5.62rem;
+    height: .8rem;
+    border: .01rem solid #999;
+    border-radius: .1rem;
+}
+
+.box ul li .translate {
+    width: 100%;
+    margin-top: .5rem;
+    margin-left: .2rem;
+    width: 3.15rem;
+    height: .8rem;
+    float: left;
+    border: .01rem solid #999;
+}
+
+.box ul li .Sendout {
+    width: 100%;
+    width: 1.5rem;
+    height: .8rem;
+    float: right;
+    margin-right: .2rem;
+    background-color: #d8edfe;
+    margin-top: .5rem;
+}
+
+.box ul .sign a p {
+    font-size: .3rem;
+    line-height: 0.8rem;
+    color: #fff;
+    text-align: center;
+    width: 6rem;
+    height: .8rem;
+    margin: auto;
+    margin-top: .5rem;
+    border: .01rem solid #999;
+    border-radius: .1rem;
+    background-color: #188ae4;
+}

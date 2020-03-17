@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+ul,
+ol {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    width: 1204px;
+    margin: 0 auto;
+}
+
+.Navigation {
+    /* width: 1200px;
+    height: 60px; */
+    background-color: rgba(101, 117, 161, 0.623);
+    margin: 0 auto;
+}
+
+.Navigation .logo {
+    width: 176px;
+    height: 56px;
+    float: left;
+    /* margin: 0 auto; */
+}
+
+.Navigation .logo img {
+    width: 100%;
+}
+
+/* .Navigation .Central {
+    margin: 0 auto;
+} */
+
+.Navigation .Central li {
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: ivory;
+}
+
+.Navigation .tail {
+    float: right;
+    top: 20px;
+    right: 55px;
+    cursor: pointer;
+    position: relative;
+}
+
+.Navigation .tail span {
+    margin-right: 15px;
+    color: ivory;
+}
+
+.Navigation .tail span:hover {
+    color: rgba(4, 0, 255, 0.452);
+}
+
+.Navigation .tail a {
+    margin-left: 45px;
+    color: ivory;
+}
+
+.Navigation .tail em {
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 22px;
+    background: url(../images/huisegouwuc.png) no-repeat;
+    margin-right: 5px;
+}
+
+.Navigation .tail em:hover {
+    width: 24px;
+    height: 22px;
+    background: url(../images/lansegouwuc.png) no-repeat;
+}
+
+.Navigation .across {
+    display: none;
+    width: 320px;
+    height: 300px;
+    background-color: #F4F5F4;
+    /* background-color: #ffffff; */
+    top: 40px;
+    right: 40px;
+    position: absolute;
+}
+
+.Navigation .across1 {
+    padding-top: 10px;
+    /* position: absolute; */
+}
+
+.Navigation .across1 h4 {
+    font-weight: normal;
+    font-size: 18px;
+    float: left;
+}
+
+.Navigation .across1 span {
+    float: right;
+    color: rgba(145, 142, 146, 0.904);
+}
+
+.Navigation .Cart {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgba(4, 0, 255, 0.171);
+    ;
+}
+
+.Navigation .Cart i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 37px;
+    height: 34px;
+    background: url(../images/iconBg.png);
+    margin-top: 55px;
+    margin-left: 140px;
+}
+
+.Navigation .Cart p {
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    ;
+    border-bottom: 1px solid rgb(51, 255, 0);
+
+}
+
+.Navigation .Cart a {
+    color: rgba(27, 29, 4, 0.788);
+    float: left;
+    margin-top: 10px;
+}
+
+.Navigation .Cart1 {
+    margin-top: 20px;
+}
+
+.Navigation .Cart1 span {
+    color: #000;
+}
+
+.Navigation .Cart1 a {
+    width: 66px;
+    height: 40px;
+    float: right;
+    margin-right: 10px;
+    color: #000;
+    /* background-color: cornflowerblue; */
+}
+
+.Navigation:hover .across {
+    display: block;
+}
+
+.banner .banImg{
+    width: 100%;
+}
+
+.banner .banImg li{
+    display: none;
+    width: 1204px;
+}
+
+.banner .banImg .active{
+    display: block;
+}
+
+.banner .banImg li img{
+    width: 100%;
+}

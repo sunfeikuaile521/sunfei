@@ -1,0 +1,124 @@
+html,body{background-color: #f8f8f8;}
+header {
+    height: 1.12rem;
+    background-color: #2a2a2a;
+}
+
+header .logoimg {
+    float: left;
+    width: 2.1rem;
+    height: .62rem;
+    margin: .23rem 0 0 .16rem;
+}
+
+header .logoimg img {
+    width: 100%;
+}
+
+header nav {
+    float: right;
+    margin: .4rem .23rem 0 0;
+}
+
+header nav span {
+    display: block;
+    width: .36rem;
+    height: .07rem;
+    background-color: #fff;
+    margin-bottom: .06rem;
+    border-radius: .02rem;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+.banner .banning {
+    width: 100%;
+}
+
+.banner .banning .active {
+    display: block;
+}
+
+.banner .banning .active img {
+    width: 100%;
+}
+
+.banner .banning li {
+    display: none;
+}
+
+.banner .dot {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: .15rem;
+    margin: auto;
+    width: .85rem;
+    height: .16rem;
+}
+
+.banner .dot li {
+    float: left;
+    width: .16rem;
+    height: .16rem;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: .05rem;
+
+}
+
+.allcourse{
+    padding: 0 .18rem;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.allcourse h5 {
+    font-weight: normal;
+    font-size: .26rem;
+    color: #4c4b4b;
+    line-height: .99rem;
+}
+
+.allcourse i{
+    width: .60rem;
+    height: .47rem;
+    background: url(../imges/icon.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 2.85rem 1.96rem;
+    background-position: -.47rem -1.49rem;
+}
+
+.allcourse .course{
+    width: 100%;
+    margin-bottom: .41rem
+}
+
+.allcourse .course img{
+    width: 100%;
+}
+.allcourse .course .info{
+    width: 100%;
+    font-size: .28rem;
+    padding:.32rem 0 .35rem 0;
+    background-color: #fff;
+    line-height: .24rem;
+    text-align: center;
+    border-radius: 0 0 .34rem .34rem;
+    box-shadow: .02rem .02rem .03rem .01rem rgba(178,178,178,.75), -.02rem .02rem .03rem .01rem rgba(178,178,178,.75);
+}
+.allcourse .course .info h6{
+    font-weight: normal;
+    color: #777;
+    padding-bottom: .27rem;
+}
+.allcourse .course .info p{
+    font-weight: normal;
+    color: #ed3a3a;
+}

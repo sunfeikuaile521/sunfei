@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            background: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>哈哈</h1>
+    </div>
+    <input type="text" id="userName">
+    <script>
+        let box = document.getElementById('box');
+        box.innerHTML = "珠峰";
+        box.innerText = "培训";
+        box.innerText += "珠峰";
+        box.innerText += "培训";
+        box.innerText = "<strong>我是重点内容</strong>";
+        box.innerText ="<strong>我是重点内容</strong>"
+        let userName = document.getElementById('userName');
+        userName.Value="我实在js中拆入得内容"
+
+
+        // 在控制台输出，特点是输出得任意类型得数据，控制台展示得也是对应数据类型
+        // console.log({
+        //     name: '珠峰'
+        // })
+        // // consile.dir输出得一个对象或者一个值得详细信息，console.log可以一次输出多个值，但dir不可以
+        // function func() {}
+        // console.log(func, 100, 300);
+        // console.dir(func);
+// console.table把多为得JSON数据以表格形式输出
+        // let arr=[{
+        //     id:1,
+        //     name:'珠峰培训'
+        // },{
+        //     id:2,name:'孙菲'
+        // }];
+        // Console.tabler(arr);
+
+        // alert('今天大家都很帅');
+        // console.log(100);
+        // alert([10,20,30]);
+        // alert({name:'珠峰'});
+
+        // let flag = confirm('今天大家都好好学习了吗？');
+        // console.log(flag);
+
+        // let reason = prompt('确定要删除此消息吗？');
+        // console.log(reason);
+    </script>
+</body>
+
+</html>

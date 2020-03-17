@@ -1,0 +1,69 @@
+<!-- 1.常用的数据类型，基本数据类型：数字：number，字符串：string，布尔：boolean，未定义：undefined，唯一：symbol
+引用数据类型：普通对象{}，数组对象：[] 正则对象：// 函数：function，
+2.引用tyepof[value]来检测数据类型
+3.Gecko: Gecko(Firefox内核)
+4.var，let,function,class
+5.null转换结果为0，undefined转换结果为NAN
+6.'珠峰培训', '珠峰培训'， '耿银鹏' iiiiiii,
+7.12.5 ， 报错， 12.5
+8.'NAN珠峰培训[12]1' , 0,1
+9. 0
+10.NAN,NAN,fales,ture,'1.61','NAN12FALSE',TURE
+11.function list(){
+   let total=10+10; 
+   console.log(list);
+}
+list();
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/7.css">
+</head>
+
+<body>
+    <script>
+        let btn = document.getElementById('btn');
+        let codeImg = document.getElementById('codeImg');
+        let dis = bth.style.display;
+        codeImg.onclick = function () {
+            if (dis === 'none') {
+                codeImg.style.display = 'block';
+            } else {
+                codeImg.style.display = 'none';
+            }
+        }
+    </script>
+    <script>
+        let navList = navBox.getElementsByClassName('li');
+        let conList = contentBox.getElementsByClassName('div');
+
+        function change(index) {
+            for (var i = 0; i < navList.length; i++) {
+                navList[i].ClassName = '';
+                conList[i].ClassName = '';
+            }
+            navList[index].ClassName = 'active';
+            conList[index].ClassName = 'avtive';
+        }
+        for (var i = 0; i < navList.length; i++) {
+            navList[i].n = i;
+            navList[i].onmouseover = function () {
+                change(this.n)
+            }
+        }
+    </script>
+     console.log(typeof "Number(null)" + !Number(null));
+     console.log(parseInt("") + Number(""));
+    <script>
+       
+
+       
+        </body>
+
+        </html>

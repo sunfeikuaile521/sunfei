@@ -1,0 +1,26 @@
+.box{
+    width: 200px;
+    height: 312px;
+    background: url(../images/walkingdead.png) no-repeat;
+    -webkit-animation: box 1s steps(10) infinite;
+    animation: box 1s steps(10) infinite;
+}
+
+@-webkit-keyframes box{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -2000px 0;
+    }
+    /* 雪碧图宽高是多少就给多少 */
+}
+
+@keyframes box{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: -2000px 0;
+    }
+}

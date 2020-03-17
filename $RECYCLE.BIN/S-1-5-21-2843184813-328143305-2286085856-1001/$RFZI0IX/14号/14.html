@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <div class="box">
+        <h2 class="title">标题新闻</h2>
+        <ul class="item" id="itemBox">
+            <li>我是新闻第一条</li>
+            <li>我是新闻第二条</li>
+            <li>我是新闻第三条</li>
+            <li id="li4">我是新闻第四条</li>
+            <li>我是新闻第五条</li>
+        </ul>
+    </div> -->
+    <script>
+        // let itemBox = document.getElementById('itemBox'),
+        //     navList = itemBox.getElementsByTagName('li');
+        // console.dir(itemBox);它是一个对象：itemBox.xxx=xxx
+        // console.dir(navList);他是一个元素集合HTML Collection(类数组集合：数字作为索引，length代表长度)，集合中得每一项是单独得元素对象 navlist[0].xxx=xxx
+
+        // 设置样式
+        // itemBox.style.color='red';
+        // itemBox.style.backgroundColor='green';
+        // ul class='item' id='itemBox' style='color':red; background-color:'green';设置得结果都是行内样式
+
+        // itemBox.style.cssText = `color:red;background-color:green;`;这种方式是style一个个设置样式得简写，批量给行内上设置很多样式
+
+        // itemBox.className='active';这样操作会把之前得格式类名
+        // function prevAll(node) {
+        //     let prev = node.previousSibling,
+        //         result = [];
+        // 循环找到他得哥哥，一直到没有哥哥了为止
+        //     while (prev !== null) {
+        // 把找到得哥哥中是元素储存起来
+        //         if (prev.nodeType === 1) {
+        //             result.unshift(prev);
+        //         }
+        //         prev = prev.previousSibling;
+        //     }
+        //     return result;
+        // }
+        // let li4 = document.getElementById('li4');
+        // console.log(prevAll(li4));
+
+        console.log(parseInt("") + Number(""));
+    </script>
+</body>
+
+</html>

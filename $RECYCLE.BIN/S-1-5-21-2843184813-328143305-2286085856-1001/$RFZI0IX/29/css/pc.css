@@ -1,0 +1,303 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.man {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+}
+
+.header .nav {}
+
+.header .nav li a {
+    float: right;
+    ;
+    font-size: 12px;
+    margin-right: 14px;
+    line-height: 100px;
+    color: rgba(0, 0, 0, .6);
+}
+
+.min {
+    position: relative;
+}
+
+.min .banner {
+    width: 100%;
+}
+
+.min .banner .display {
+    width: 1226px;
+    display: block;
+}
+
+.min .banner li {
+    width: 1226px;
+    display: none;
+}
+
+.min .banner li img {
+    width: 100%;
+}
+
+.bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 230px;
+    height: 460px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.bar li:hover {
+    background-color: rgba(100, 148, 237, 0.521);
+
+}
+
+.bar li a {
+    font-size: 12px;
+    line-height: 50px;
+    height: 42px;
+    color: rgb(17, 16, 16);
+    margin: 30px 0 0 30px;
+    color: #fff;
+}
+
+.bar li a i {
+    margin-left: 75px;
+}
+
+.bar li:hover .hide {
+    display: block;
+}
+
+.bar li:hover .hide li {
+    color: rgba(83, 73, 224, 0.952);
+    font-weight: bold;
+}
+
+.bar li:hover .hide li a {
+    color: rgb(223, 241, 56);
+    font-weight: bold;
+}
+
+.bar .hide {
+    display: none;
+    position: absolute;
+    left: 230px;
+    top: 0;
+    width: 991px;
+    height: 460px;
+    background-color: rgba(235, 229, 229, 0.418);
+}
+
+.bar .hide li {
+    float: left;
+    color: #dce0dcea;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.bar .hide li a {
+    color: #dce0dcea;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.bar .hide ul li em {
+    width: 50px;
+    height: 50px;
+    background: url(../images/xiaotu2.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.activity {
+    padding: 30px 0;
+}
+
+.activity .Seckill {
+    width: 233px;
+    height: 172px;
+    float: left;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.activity .Seckill ul {
+    margin-left: -30px;
+
+}
+
+.activity .Seckill li {
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 47px;
+    margin-top: 33px;
+}
+
+.activity .Seckill li a {
+    display: block;
+}
+
+.activity .Seckill li img {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.activity .Seckill li p {
+    width: 50px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.activity .picture {}
+
+.activity .picture ul {
+    margin-right: -14px;
+}
+
+.activity .picture li {
+    width: 316px;
+    height: 140px;
+    float: right;
+    box-sizing: border-box;
+    margin-right: 14px;
+}
+
+.activity .picture li a {
+    display: block;
+}
+
+.activity .picture li img {
+    width: 100%;
+
+}
+
+.banner {}
+
+.banner a {
+    width: 1226px;
+    height: 120px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.Title {
+    padding: 30px 0;
+}
+
+.Title h5 {
+    float: left;
+    font-weight: normal;
+    font-size: 22px;
+    color: #333333;
+}
+
+.Title a span:hover {
+    display: block;
+    color: orangered;
+    text-decoration:Underline orangered;
+}
+
+.Title a span {
+    float: right;
+    font-size: 20px;
+    color: #333333;
+}
+
+.Title span i {
+    background-color: #a09c9c;
+    border-radius: 10%;
+}
+
+.millet {
+    margin-bottom: 40px;
+}
+
+.millet .vertical {
+    width: 234px;
+    height: 614px;
+    float: left;
+}
+
+.millet .vertical img {
+    width: 100%;
+}
+
+.transverse {}
+
+.transverse ul {
+    float: right;
+    width: 236px;
+    height: 300px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.transverse li {
+    width: 160px;
+    height: 160px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.transverse li a {
+    display: block;
+}
+
+.transverse ul li a img {
+    width: 100px;
+    margin: 25px auto;
+}
+
+.transverse ul li a {
+    text-align: center;
+    display: block;
+}
+
+.transverse ul li a .word {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    line-height: 10px;
+}
+.transverse ul li a .word1{
+    font-size: 12px;
+    color:#b0b0b0 ;
+    line-height: 30px;
+}
+
+.transverse ul li a .word2{
+    color: #ff6700;
+    line-height: 30px;
+}
+
+.transverse .feed {
+}
+.transverse  .feed .feed1{
+    margin-top: 12px;
+}
+
+.copy span{
+margin-right: 25px;
+}
+
+.millet1 .ransverse1  ul{
+    float: right;
+    width: 236px;
+    height: 300px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+

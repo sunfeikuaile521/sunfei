@@ -1,0 +1,98 @@
+.Layout {
+    width: 1309px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 1309px;
+    height: 79px;
+}
+
+.nav .header {}
+
+.nav .header .logo {
+    width: 124px;
+    height: 43px;
+    float: left;
+    margin-left: 150px;
+    margin-top:24px ;
+}
+
+.nav .header .logo img {
+    width: 100%;
+}
+
+.nav .header .list {}
+
+.nav .header .list ul li {
+    float: left;
+    line-height: 90px;
+    margin-left: 45px;
+    text-align: center;
+}
+
+.nav .header .list ul a {
+    color: black;
+    font-size: 13px;
+}
+
+.nav .header .list ul .rab {
+    color: red;
+}
+
+.nav .header .list ul a:hover {
+    color: royalblue;
+}
+
+.nav .loimg {
+    width: 1308px;
+    height: 452px;
+    background-color: #C9DDED;
+}
+
+.nav .loimg img {
+    width: 1000px;
+    height: 413px;
+    margin-left: 151px;
+}
+
+.nav .Middle {
+    width: 1309px;
+    height: 826px;
+    background-color: #F6F3F7;
+}
+
+.nav .Middle .Title {}
+
+.Middle .Title h5 {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 69px;
+    text-align: center;
+}
+
+.Middle .Title p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.Middle .picture {
+    width: 1101px;
+}
+
+.Middle .picture ul {
+    float: left;
+}
+
+.Middle .picture ul li {
+    float: left;
+    margin-left:150px;
+    margin-right: -50px;
+    margin-top: 25px;
+}
+
+.Middle .picture ul p {
+    color: #333333;
+    font-size: 16px;
+    margin-top: 10px;
+}

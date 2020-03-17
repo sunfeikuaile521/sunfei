@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+;
+
+ul,
+ol {
+    list-style: none
+}
+
+;
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 1000px;
+    height: 65px;
+    margin: 0 auto;
+    background-color: rgba(202, 193, 138, 0.493);
+}
+
+.header .logo,
+.header .nav,
+.header .login {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header .logo {
+    width: 176px;
+    height: 52px;
+}
+
+.header .logo img {
+    width: 100%;
+}
+
+.header .nav a {
+    line-height: 52px;
+    color: #2a2a2a;
+    font-size: 16px;
+    padding-left: 29px;
+}
+
+.header .nav a:hover{
+    color: #2b7dd1;
+}
+
+.header .login{
+    line-height: 52px;
+    color: #666767;
+    font-size: 16px;
+    cursor:pointer;
+    padding-left: 25px;
+}
+
+.header .login a {
+    color: #666767;
+    padding-left: 19px;
+ 
+}
+.header .login .car em{
+    display: inline-block;
+    width: 24px;
+    height: 22px;
+    background: url(../5.png)
+    no-repeat;
+    vertical-align: middle;
+}
+
+.header .login .car:hover{
+    color: cornflowerblue;
+}
+
+.header .login .car:hover em{
+    background: url(../6.png);
+}

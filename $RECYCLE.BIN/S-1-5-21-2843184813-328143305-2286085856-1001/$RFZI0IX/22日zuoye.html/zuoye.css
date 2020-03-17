@@ -1,0 +1,898 @@
+.Layout {
+    width: 1204px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.Layout .logo {
+    width: 172px;
+    height: 52px;
+    float: left;
+}
+
+.Layout .logo img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.Layout .nav {
+    width: 986px;
+    line-height: 84.8px;
+}
+
+.Layout .nav li {
+    float: left;
+    padding-left: 10px;
+}
+
+.Layout .nav li a {
+    margin-left: 60px;
+    font-size: 14px;
+    color: #2a2a2a;
+}
+
+.Layout .cart {
+    line-height: 84.8px;
+    margin-left: 20px;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.Layout .cart:hover .Choose {
+    display: block;
+}
+
+.Layout .cart .Shopping em:hover {
+    display: block;
+    width: 24px;
+    height: 22px;
+    background: url(./images/icon2.png);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Layout .cart .Shopping:hover {
+    color: #4e91d7;
+    cursor: pointer;
+}
+
+.Layout .cart .Shopping {
+    font-size: 14px;
+    color: #666767;
+    float: left;
+    margin-left: 97px;
+}
+
+.Layout .cart .Shopping em {
+    width: 24px;
+    height: 22px;
+    background: url(./images/icon1.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 9px;
+}
+
+.Layout .cart .sign {
+    font-size: 14px;
+    color: #666767;
+    margin-left: 20px;
+}
+
+.Layout .cart .Choose {
+    display: none;
+    position: absolute;
+    left: 810px;
+    top: 85px;
+    background-color: #fff;
+}
+
+.Layout .cart .Choose {
+    width: 324px;
+    border: 2px solid #f4f5f4;
+}
+
+.Layout .cart .Choose .clearfix {
+    font-size: 16px;
+    line-height: 52px;
+    border-bottom: 1px solid #dddfdd;
+    width: 290px;
+    margin-left: 14px;
+}
+
+.Layout .cart .Choose .clearfix1 {
+    line-height: 52px;
+    font-size: 12px;
+    color: #7d7d7d;
+    float: right;
+}
+
+.Layout .cart .Choose .empty {}
+
+.Layout .cart .Choose .empty .iconbg {
+    width: 68px;
+    height: 68px;
+    background: #9e9e9e url(./images/iconBg.png) no-repeat 14px 17px;
+    margin: 44px auto;
+    border-radius: 50%;
+}
+
+.Layout .cart .Choose .empty .empty {
+    color: #414141;
+    line-height: 60px;
+    text-align: center;
+    width: 190px;
+    margin: 0 auto;
+    border-bottom: 1px solid #dddfdd;
+}
+
+.Layout .cart .Choose .empty .courae {
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #dddfdd;
+    width: 290px;
+    margin-left: 17px;
+}
+
+.Layout .cart .Choose .empty .courae a {
+    color: #4e91d7;
+}
+
+.Layout .cart .Choose .Sign {}
+
+.Layout .cart .Choose .Sign .Order {
+    float: left;
+    font-size: 12px;
+    color: #7d7d7d;
+    margin-left: 18px;
+}
+
+.Layout .cart .Choose .Sign .go {
+    float: right;
+}
+
+.Layout .cart .Choose .Sign .go a {
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #4e91d7;
+    margin-right: 18px;
+    width: 79px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    float: right;
+    margin-top: 27px;
+    border-radius: 5px;
+}
+
+
+/* 轮播图*/
+.planting {
+    height: 360px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    padding-bottom: 50px;
+}
+
+.planting .banner {
+
+    width: 100%;
+}
+
+.planting .banner li {
+    display: none;
+}
+
+.planting .banner .display {
+    display: block;
+}
+
+.planting .bar {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.planting .bar ul .nohide {
+    width: 298px;
+    line-height: 71px;
+    background-color: #2074a6;
+}
+
+.planting .bar ul .nohide a {
+    color: #fdfdfe;
+    font-size: 14px;
+    text-align: center;
+    width: 240px;
+    border-bottom: #82b1cd 1px solid;
+    display: block;
+    margin: 0 auto;
+}
+
+.planting .bar .nohide:hover .hide dl {
+    display: block;
+}
+
+.planting .bar .nohide .hide dl {
+    display: none;
+    position: absolute;
+    left: 300px;
+    top: 0;
+    width: 573px;
+    height: 360px;
+    background: url(./images/ban-bg1.png);
+}
+
+.planting .bar .nohide .r1 dl {
+    background: url(./images/ban-bg2.png);
+}
+
+.planting .bar .nohide .r2 dl {
+    background: url(./images/ban-bg3.png);
+}
+
+.planting .bar .nohide .r4 dl {
+    background: url(./images/ban-bg2.png);
+}
+
+.planting .bar .nohide:hover {
+    display: block;
+    background-color: yellowgreen;
+    color: rgb(0, 255, 0);
+}
+
+.planting .bar .nohide .hide dl dt {
+    margin-left: 25px;
+}
+
+.planting .bar .nohide .hide dl dd {
+    line-height: 43px;
+    margin-left: 25px;
+}
+
+
+/* 实战推荐 */
+.actual {
+    padding-bottom: 30px;
+
+}
+
+.actual h4 {
+    font-weight: normal;
+    color: #2d2d2d;
+    font-size: 16px;
+    line-height: 54px;
+}
+
+.actual .input {
+    margin-left: -60px;
+}
+
+.actual .input .Location {
+    width: 251px;
+    height: 184px;
+    float: left;
+    margin-left: 60px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+
+}
+
+.actual .input .Location img {
+    width: 100%;
+}
+
+.actual .input .Location:hover .introduce {
+    display: block;
+    bottom: 44px;
+    cursor: pointer;
+}
+
+.actual .input .Location .introduce {
+    font-size: 14px;
+    color: #1e1e1e;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s;
+}
+
+.actual .input .Location .introduce .High {
+    color: #1e1e1e;
+    font-size: 14px;
+    line-height: 40px;
+    margin-left: 16px;
+}
+
+.actual .input .Location .introduce .fire {
+    color: #1e1e1e;
+    font-size: 14px;
+    padding-bottom: 14px;
+    margin-left: 16px;
+}
+
+
+
+.actual .input .Location .introduce .Concurrently {
+    font-size: 12px;
+    color: #9e9d9d;
+    line-height: 14px;
+    margin-left: 16px;
+}
+
+.actual .input .money {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 40px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.actual .input .money .Front {
+    color: red;
+    font-size: 12px;
+    margin-left: 16px;
+}
+
+.actual .input .money .after {
+    float: right;
+    font-size: 12px;
+    color: #868484;
+    margin-right: 20px;
+}
+
+/* 免费好课 */
+.Good {
+    padding-bottom: 30px;
+}
+
+.Good h4 {
+    font-weight: normal;
+    line-height: 53.6px;
+}
+
+.Good .Free {
+    margin-left: -60px;
+}
+
+.Good .Free .Admission:hover .High1 {
+    display: block;
+    bottom: 40px;
+    cursor: pointer;
+}
+
+.Good .Free .Admission {
+    float: left;
+    width: 251px;
+    height: 184px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-left: 60px;
+}
+
+.Good .Free .Admission img {
+    width: 100%;
+}
+
+.Good .Free .Admission .High1 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+
+.Good .Free .Admission .High1 .elm {
+    font-size: 14px;
+    line-height: 41.6px;
+    color: #1e1e1e;
+    margin-left: 16px;
+}
+
+.Good .Free .Admission .High1 .elm1 {
+    font-size: 14px;
+    line-height: 40px;
+    color: #1e1e1e;
+    margin-left: 16px;
+}
+
+.Good .Free .Admission .High1 .elm2 {
+    color: #9e9d9d;
+    font-size: 12px;
+    margin-left: 16px;
+    line-height: 14px;
+}
+
+.Good .Free .Admission .money1 {
+    width: 100%;
+    line-height: 41px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.Good .Free .Admission .money1 .Front1 {
+    font-size: 12px;
+    color: red;
+    margin-left: 16px;
+    float: left;
+}
+
+.Good .Free .Admission .money1 .after1 {
+    float: right;
+    margin-right: 12px;
+    font-size: 12px;
+    color: #868484;
+}
+
+/* 图片列表 */
+
+.picture {
+    width: 1204px;
+    margin: 0 auto;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.picture .one {
+    width: 224px;
+    height: 380px;
+    float: left;
+    margin-top: 14px;
+}
+
+.picture .one .ture {}
+
+.picture .one .ture img {
+    width: 100%;
+}
+
+/* 第二组第一张图 */
+.picture .Two .banner {
+    float: left;
+    margin: 13px 15px;
+    width: 396px;
+    height: 185px;
+}
+
+.picture .Two .banner img {
+    width: 100%;
+}
+
+/* 第二组第二张图 */
+.picture .Two .Free {
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+.picture .Two .Free .Admission:hover .High1 {
+    display: block;
+    bottom: 40px;
+    cursor: pointer;
+}
+
+.picture .Two .Free .Admission {
+    float: left;
+    width: 251px;
+    height: 184px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin: 14px 4px;
+    /* margin-top: 13px; */
+}
+
+.picture .Two .Free .Admission img {
+    width: 100%;
+}
+
+.picture .Two .Free .Admission .High1 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+
+.picture .Two .Free .Admission .High1 .elm {
+    font-size: 14px;
+    line-height: 41.6px;
+    color: #1e1e1e;
+    margin-left: 16px;
+}
+
+.picture .Two .Free .Admission .High1 .elm1 {
+    font-size: 14px;
+    line-height: 40px;
+    color: #1e1e1e;
+    margin-left: 16px;
+}
+
+.picture .Two .Free .Admission .High1 .elm2 {
+    color: #9e9d9d;
+    font-size: 12px;
+    margin-left: 16px;
+    line-height: 14px;
+}
+
+.picture .Two .Free .Admission .money1 {
+    width: 100%;
+    line-height: 41px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.picture .Two .Free .Admission .money1 .Front1 {
+    font-size: 12px;
+    color: red;
+    margin-left: 16px;
+    float: left;
+}
+
+.picture .Two .Free .Admission .money1 .after1 {
+    float: right;
+    margin-right: 12px;
+    font-size: 12px;
+    color: #868484;
+}
+
+/* 第二组第三张图 */
+.picture .Two .banner2 {
+    float: left;
+    margin-right: 199px;
+    width: 396px;
+    height: 185px;
+    position: absolute;
+    left: 240px;
+    bottom: 0;
+}
+
+.picture .Two .banner img {
+    width: 100%;
+}
+
+/* <!-- 第二组第四张图 --> */
+.picture .Two .Free .Admission1 {}
+
+.picture .Two .Free .Admission1:hover .High1 {
+    display: block;
+    bottom: 40px;
+    cursor: pointer;
+}
+
+.picture .Two .Free .Admission1 {
+    float: left;
+    width: 251px;
+    height: 184px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-top: 210px;
+    margin-left: -258px;
+}
+
+.picture .Two .Free .Admission1 img {
+    width: 100%;
+}
+
+.picture .Two .Free .Admission1 .High1 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+
+.picture .Two .Free .Admission1 .High1 .elm {
+    font-size: 14px;
+    line-height: 41.6px;
+    color: #1e1e1e;
+    margin-left: 16px;
+}
+
+.picture .Two .Free .Admission1 .High1 .elm1 {
+    font-size: 14px;
+    line-height: 40px;
+    color: #1e1e1e;
+    margin-left: 16px;
+}
+
+.picture .Two .Free .Admission1 .High1 .elm2 {
+    color: #9e9d9d;
+    font-size: 12px;
+    margin-left: 16px;
+    line-height: 14px;
+}
+
+.picture .Two .Free .Admission1 .money1 {
+    width: 100%;
+    line-height: 41px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.picture .Two .Free .Admission1 .money1 .Front1 {
+    font-size: 12px;
+    color: red;
+    margin-left: 16px;
+    float: left;
+}
+
+.picture .Two .Free .Admission1 .money1 .after1 {
+    float: right;
+    margin-right: 12px;
+    font-size: 12px;
+    color: #868484;
+}
+
+
+/* 第三组 */
+
+
+.picture .sion {
+    position: absolute;
+    right: 30px;
+    top: 14px;
+}
+
+.picture .sion .Admis:hover .High1 {
+    display: block;
+    bottom: 40px;
+    cursor: pointer;
+}
+
+.picture .sion .Admis {
+    float: left;
+    width: 251px;
+    height: 184px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-left: 60px;
+}
+
+.picture .sion .Admis img {
+    width: 100%;
+}
+
+.picture .sion .Admis .High1 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+
+.picture .sion .Admis .High1 .elm {
+    font-size: 14px;
+    line-height: 41.6px;
+    color: #1e1e1e;
+    margin-left: 16px;
+}
+
+.picture .sion .Admis .High1 .elm1 {
+    font-size: 14px;
+    line-height: 40px;
+    color: #1e1e1e;
+    margin-left: 16px;
+}
+
+.picture .sion .Admis .High1 .elm2 {
+    color: #9e9d9d;
+    font-size: 12px;
+    margin-left: 16px;
+    line-height: 14px;
+}
+
+.picture .sion .Admis .money1 {
+    width: 100%;
+    line-height: 41px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-bottom: 2px solid red;
+}
+
+.picture .sion .Admis .money1 .Front1 {
+    font-size: 12px;
+    color: red;
+    margin-left: 16px;
+    float: left;
+}
+
+.picture .sion .Admis .money1 .after1 {
+    float: right;
+    margin-right: 12px;
+    font-size: 12px;
+    color: #868484;
+
+}
+
+.picture .sion .Admis .money2 {
+    width: 263px;
+    line-height: 50px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.picture .sion .Admis .money2 li {
+    font-size: 12px;
+    color: #1e1e1e;
+}
+
+
+
+/* 底部 */
+.bottom .tail {
+    background-color: #333;
+    height: 200px;
+    padding-top: 55px;
+}
+
+.bottom .tail dl {
+    float: left;
+}
+
+.bottom .tail dt {
+    line-height: 40px;
+    margin-left: 73px;
+    color: #fff;
+}
+
+.bottom .tail dd {
+    line-height: 32px;
+    margin-left: 73px;
+    color: #fff;
+}
+
+.bottom .picture em {
+    width: 233px;
+    height: 64px;
+    background: url(./images/黑底珠峰图片.png) no-repeat;
+    float: right;
+    margin-top: -200px;
+    margin-right: 50px;
+}
+
+.bottom .picture ul .Icon:hover .hezi {
+    display: block;
+}
+
+.bottom .picture ul .Icon {
+    float: right;
+    width: 51px;
+    height: 52px;
+    background: url(./images/77.png);
+    margin-top: -120px;
+    margin-right: 50px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+}
+
+.bottom .picture ul .Icon .hezi {
+    position: absolute;
+    right: 110px;
+    bottom: 60px;
+    display: none;
+}
+
+.bottom .picture ul .Icon2 {
+    float: right;
+    width: 51px;
+    height: 52px;
+    background: url(./images/88.png);
+    margin-top: -120px;
+    margin-right: 110px;
+}
+
+.bottom .picture ul .Icon3 {
+    float: right;
+    width: 51px;
+    height: 52px;
+    background: url(./images/99.png);
+    margin-top: -120px;
+    margin-right: 170px;
+}
+
+.bottom .picture ul .Icon4 {
+    float: right;
+    width: 51px;
+    height: 52px;
+    background: url(./images/111.png);
+    margin-top: -120px;
+    margin-right: 230px;
+}
+
+/* 侧边栏 */
+.ellright {
+    width: 65px;
+    height: 243px;
+    background-color: #ffffff;
+    position: fixed;
+    right: 0;
+    top: 78px;
+    box-shadow: -2px 2px 3px rgba(2, 2, 2, .17);
+    margin-top: 10px;
+}
+.ellright .icun{
+    width: 39px;
+    height: 37px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e1e1e1;
+    padding-top: 13px;
+}
+.ellright .icun a{
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin: 0 auto;
+}
+.ellright .icun:hover .sigh{
+    display: block;
+}
+.ellright .icun:hover .text{
+    display: none;
+}
+.ellright .text{
+    display: none;
+    font-size: 12px;
+    line-height: 12px;
+    color: royalblue;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+.ellright .icun .sigh{
+    display: none;
+    /* display: block; */
+    width: 22px;
+    height: 22px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 22px;
+    font-size: 14px;
+    color: #a3a3a3;
+}
+
+/* app */
+.ellright .icun .hidden{
+    position: absolute;
+    left: -120px;
+    bottom: 55px;
+    display: none;
+    width: 110px;
+    height: 109px;
+    background-color: #fff;
+    font-size: 12px;
+}
+.ellright .icun:hover .hidden{
+    display: block;
+}
+.ellright .icun .APP{
+    width: 19px;
+    height: 29px;
+    background: url(./images/arrow.png) no-repeat;
+    border: none;
+    border-radius: 0;
+}

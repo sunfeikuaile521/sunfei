@@ -1,0 +1,18 @@
+/* 320 */
+@media all and (min-width:320px){
+    html{
+        font-size: 42.665px;
+    }
+}
+/* 375 */
+@media all and (min-width:375px){
+    html{
+        font-size: 50px;
+    }
+}
+/* 414 */
+@media all and (min-width:414px){
+    html{
+        font-size: 55.2px;
+    }
+}

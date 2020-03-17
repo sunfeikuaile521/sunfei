@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="8.css">
+</head>
+
+<body>
+    <section id="box" style="line-height: 50px;">
+        <ul>
+            <li>
+                <a href=""> 岁末，珠峰就业还在一直创造奇迹</a>
+               </li>
+            <li> <a href=""> 岁末，珠峰就业还在一直创造奇迹</a></li>
+            <li> <a href=""> 岁末，珠峰就业还在一直创造奇迹</a></li>
+            <li> <a href=""> 岁末，珠峰就业还在一直创造奇迹</a></li>
+            <li> <a href=""> 岁末，珠峰就业还在一直创造奇迹</a></li>
+            <li> <a href=""> 岁末，珠峰就业还在一直创造奇迹</a></li>
+        </ul>
+    </section>
+
+
+    <script>
+        let box = document.getElementById('box');
+        let item = box.getElementsByTagName('li');
+
+        for (var i = 0; i < item.length; i++) {
+            var itemlist = item[i];
+            bg = '#fff';
+            i % 2 === 1 ? bg = 'lightcyan' : null;
+            itemlist.style.backgroundColor = bg;
+            itemlist.MyBg = bg;
+
+            itemlist.onmouseover = function () {
+                this.style.backgroundColor = 'orange';
+            };
+            itemlist.onmouseout = function () {
+                this.style.backgroundColor = this.MyBg;
+            };
+        }
+    </script>
+<script>
+    function sum(){
+        let total =0;
+        for (let i=0;i<arguments;i<++);
+    }
+</script>
+    <!-- 2.循环结果都是5，使用自定义属性实现循环绑定事件
+      3.'珠峰培训' '珠峰培训' 'undefined' -->
+</body>
+
+</html>

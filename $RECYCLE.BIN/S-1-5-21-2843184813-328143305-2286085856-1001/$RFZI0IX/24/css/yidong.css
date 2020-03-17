@@ -1,0 +1,87 @@
+.nav {
+    width: 100%;
+    position: relative;
+    background-color: #fd6a28;
+}
+
+.nav .Layout {
+    width: 960px;
+    margin: 0 auto;
+    line-height: 89px;
+    background-color: rgba(226, 94, 17, 0.678);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.nav .Layout .logo {
+    width: 270px;
+    height: 51px;
+    float: left;
+    margin-top: 20px;
+}
+
+.nav .Layout .logo img {
+    width: 100%;
+}
+
+.nav .Layout .Navigation {
+    float: right;
+
+}
+
+.nav .Layout .on1:hover {
+    color: rgba(97, 196, 97, 0.678);
+}
+
+.nav .Layout .on2:hover {
+    color: rgba(97, 196, 97, 0.678);
+}
+
+.nav .Layout .on3:hover {
+    color: rgba(97, 196, 97, 0.678);
+}
+
+.nav .Layout .Navigation a {
+    color: #ffffff;
+    margin-right: 73px;
+    font-size: 19px;
+}
+
+/* 移动 */
+@media screen and (max-width:700px) {
+    .nav {
+        width: 100%;
+    }
+
+    .nav .Layout {
+        line-height: 46px;
+        background-color: black;
+    }
+
+    .nav .Layout .logo {
+        width: 148px;
+        height: 27px;
+        margin-top: 9px;
+    }
+
+    .nav .Layout .logo img {
+        width: 100%;
+    }
+}
+
+/* banner */
+.nav .picture {
+    width: 100%;
+}
+
+.nav .picture li {
+    display: none; 
+}
+
+.nav .picture li.active {
+    display: block;
+    text-align: center;
+    width: 960px;
+    /* background-color: #fd6a28; */
+}
